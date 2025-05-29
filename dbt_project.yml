@@ -5,9 +5,8 @@ config-version: 2
 profile: 'sales_analytics'
 
 model-paths: ["models"]
-analysis-paths: ["analyses"]
-test-paths: ["tests"]
 seed-paths: ["seeds"]
+test-paths: ["tests"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
@@ -18,4 +17,5 @@ clean-targets:
 
 models:
   Analytics:
-    +materialized: view
+    customers:
+      +materialized: view

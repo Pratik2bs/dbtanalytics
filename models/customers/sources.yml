@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: mysource
+    database: DBT_PRACT
+    schema: SC_DBPRACT
+    tables:
+      - name: CUSTOMER
+        columns:
+          - name: CUSTOMER_ID
+            tests:
+              - not_null
+              - unique

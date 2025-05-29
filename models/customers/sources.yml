@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sc_dbpract
+    database: DBT_PRACT  # optional, if different from default
+    schema: SC_DBPRACT
+    tables:
+      - name: CUSTOMER

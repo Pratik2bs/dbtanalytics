@@ -17,5 +17,5 @@ clean-targets:
   - "dbt_packages"
 
 models:
-  sales_analytics:
+  Analytics:
     +materialized: view

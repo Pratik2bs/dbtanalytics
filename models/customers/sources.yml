@@ -5,4 +5,4 @@ sources:
     database: DBT_PRACT       # change if your database name is different
     schema: SC_DBPRACT
     tables:
-      - name: CUSTOMER2
+      - name: CUSTOMER

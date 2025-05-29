@@ -3,5 +3,6 @@ version: 2
 sources:
   - name: sc_dbpract
     schema: SC_DBPRACT
+    database: DBT_PRACT
     tables:
       - name: CUSTOMER

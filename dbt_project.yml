@@ -4,7 +4,7 @@ name: 'Analytics'
 version: '1.0.0'
 config-version: 2
 
-profile: 'default'
+profile: 'sales_analytics'
 
 model-paths: ["models"]
 analysis-paths: ["analyses"]

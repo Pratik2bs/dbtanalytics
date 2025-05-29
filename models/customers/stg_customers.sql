@@ -9,8 +9,9 @@ with source as (
         cast(CC as string) as credit_card,
         CC_TYPE,
         UPDATED_AT
-    from SC_DBPRACT.CUSTOMER
+     from {{ source('sc_dbpract', 'CUSTOMER') }}
 
 )
 
-select * from source
+select * from {{ source('sc_dbpract', 'CUSTOMER') }}
+

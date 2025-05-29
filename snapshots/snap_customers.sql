@@ -20,6 +20,5 @@ select
     UPDATED_AT
 from {{ source('mysource', 'CUSTOMER') }}
 
---testing ci/cd on pull request
 
 {% endsnapshot %}

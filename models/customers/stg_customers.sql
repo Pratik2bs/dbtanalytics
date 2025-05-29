@@ -9,7 +9,7 @@ with source as (
         cast(CC as string) as credit_card,
         CC_TYPE,
         UPDATED_AT
-    from {{ source('mysource', 'CUSTOMER2') }}
+    from {{ source('mysource', 'CUSTOMER') }}
 )
 
 select * from source

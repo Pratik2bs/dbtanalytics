@@ -13,5 +13,5 @@ with source as (
 
 )
 
-select * from {{ source('sc_dbpract', 'CUSTOMER') }}
+select * from source
 

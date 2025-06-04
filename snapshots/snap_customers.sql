@@ -20,4 +20,5 @@ select
     UPDATED_AT
 from {{ source('mysource', 'CUSTOMER') }}
 
+
 {% endsnapshot %}
